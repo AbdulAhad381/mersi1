@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+   
+   
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+ }
+ 
+ 
+ .logo{
+    width:70%;
+ }
+ 
+  p{
+    color: white;
+    margin-left: 100px;
+    margin-top: -30px;
+  
+  }
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+ 
+  .header{
+    background: black;
+  
+  }
+  
+.header .row{
+margin-top:70px ;
+}
+.btn:hover{
+    background:#563434;
+}
+
+nav{
+    flex: 1;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  hr{
+background-color: rgb(154,154,154);
+  }
+ h6{
+    color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+ }
+ .lan{
+    background-color: rgb(38,38,38);
+    width: 0.1;
+ }
+ .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .categories{
+  margin: 70px 0;
+ 
+
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border: 1px solid #555;
+}
+.col-3 img{
+  width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+ 
+    
+ 
+ 
+ 
+    
+.btn{
+    
+    display: inline-block;
+    background: rgb(0,120,214);
+    color: #fff;
+    padding: 15px 30px;
+    margin-left: 30px;
+    border-radius: 1px;
+   transition:  0.5s;
+  margin-bottom: -500px;
+ 
+  
+   
+
+}
+.btn:hover{
+    background:rgb(0,90,214);
+}
+@media only screen and (max-width :600px) {
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+}
+
+.title{
+    
+    margin: 20px auto 20px;
+    position: relative;
+    line-height: 60px;
+    color:rgb(51,51,51);
+    font-size: 40px;
+   
+}
+.txt{
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.txt2{
+  margin-top: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn1{
+  border: 2px;
+  display: inline-block;
+  background: rgb(0,120,214);
+  width: 200px;
+  padding: 10px 10px;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+    transition:  0.5s;
+}
+.btn1:hover{
+  background: black;
+}
+.all-models{
+  font-size: 50px;
+  padding: 20px 90px;
+  color: rgb(51,51,51);
+}
+.types{
+  
+  margin-left: 20px;
+  color:white ;
+  font-size: 30px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.limo{
+ font-size: 30px;
+ padding:20px 20px 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+.col-4{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color: rgb(247, 247, 247);
+ 
+}
+.col-4 img{
+  width: 100%;
+}
+
+.elec{
+  text-align: center;
+  border: 1px solid #555;
+  width: 60px;
+  border-radius: 7px;
+  background-color: #555;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: 40%;
+}
+ .para{
+  padding: 30px;
+  color: #555;
+ }
+ .col-5{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  border: 1px solid #555;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 16px;
+    padding: 80px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer p{
+    color: #8a8a8a;
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3
+
+{
+min-width: 250px;
+margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer-col-1{
+    flex-basis: 5%;
+    text-align: center;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+
+}
+.footer-col-4{
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.col-6{
+  flex-basis: 5%;
+  min-width: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+@media only screen and (max-width :600px) {
+  p{
+    display: none;
+  }  
+  .logo{
+    margin-left: 37%;
+
+  }
+.search{
+  display: none;
+}    
+}
+.search1{
+width: 300px;
+text-align: center;
+height: 40px;
+border-radius: 1px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="mer logo.jpg" width="90px">
+                    <p>MERCEDES-BENZ</p>
+                </div>
+                <div class="search"><i class="fa fa-search" aria-hidden="true"></i> <input class="search1" type="text" placeholder="Find your dream car"></div>
+                
+             </div> 
+             
+             <hr class="lan">
+             <nav>
+                <ul id="MENUITEM">
+                    <li><a href="">Our models</a></li>
+                    <li><a href="">Buy online</a></li>
+                    <li><a href="">Finance</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Brands</a></li>
+                </ul>
+            </nav>
+            <hr>
+        <h6>Explore your dream Mercedes-Benz. Shop online now.</h6>
+            <hr>
+        </div>
+
+    </div>
+    <div class="imgb">
+     <div class="img1"> 
+      <img src="AMG_SL55_4MATIC+Roadster_OW.png" width="100%">
+      
+    </div>
+     
+    </div>
+    <div class="catergory">
+      <div class="small-container">
+        <h2 class="title">Our recommendations</h2>
+          <div class="row">
+              <div class="col-3">
+                <img src="amg3.png">
+                <div class="txt"><h2>Mercedes amg S-class</h2></div>
+                <div class="txt2">Thrill for Every thing.</div>
+                <div class="btn1">
+                  <a href="" >Learn more</a>
+                </div>
+                
+              </div>
+              <div class="col-3"><img src="amg1.png">
+               <div class="txt"><h2>Buy new Mercedes </h2></div>
+                <div class="txt2">Browse the Mercedes-Benz.</div>
+                  <div class="btn1">
+                  <a href="" >Find avaliable cars</a>
+                </div>
+              </div>
+              <div class="col-3"><img src="amg2.png">
+               <div class="txt"><h2>Pre-Owned cars</h2></div>
+                <div class="txt2">Find your dream Mercedes-Benz</div>
+                  <div class="btn1">
+                  <a href="" >know more</a>
+                
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+     <div class="all-models">
+      All models
+     </div>
+     <div class="types">Models     <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></div>
+     <div class="limo">limousine</div>
+     <div class="catergory">
+      <div class="small-container">
+       
+          <div class="row">
+              <div class="col-4">
+                <div class="txt"><h2>EQS Limousine4567</h2></div>
+                <div class="txt2">Starting from $1590000</div>
+                <div class="elec">electric</div>
+                <img src="iris.png">
+              </div> 
+              <div class="col-4">
+                <div class="txt"><h2>A-class limousine</h2></div>
+                <div class="txt2">Starting from $169900</div>
+                <div class="elec">simple</div>
+                <img src="iris (1).png">
+              </div> 
+              <div class="col-4">
+                <div class="txt"><h2>C-class limousine</h2></div>
+                <div class="txt2">Starting from $1830000</div>
+                <div class="elec">simple</div>
+                <img src="iris (1).png">
+              </div> 
+      </div>
+  </div>
+  <div class="limo">Legal disclaimer and annotations</div>
+ <hr >
+ <div class="para"> The prices specified herein are indicative and may not be final. The indicated price may differ due to purchase of any additional accessories, parts or products, services that may be availed <br>by the customer, discounts offered, change in government taxes, duties, fees or levies, change of state of registration etc. Mercedes- Benz India or the Authorised Franchise Partner shall not<br> be responsible or liable to compensate for the difference in the prices due to aforesaid reasons or any reason beyond the control of Mercedes-Benz India or the Authorised Franchise Partner.<br> Actual colour of the vehicle may differ from those shown in pictures. While Mercedes-Benz India tries to make sure that all information provided herein is ac</div>
+ <div class="catergory">
+  <div class="small-container">
+    
+      <div class="row">
+          <div class="col-5">
+           
+            <div class="txt"><h4><i class="fa fa-shopping-cart" ></i> Online store</h4></div>
+            <div class="txt2">Discover your new mercedes</div>
+            
+            
+          </div>
+          <div class="col-5">
+           <div class="txt"><h4><i class="fa fa-cogs" aria-hidden="true"></i> Configuration </h4></div>
+            <div class="txt2">configure your vehicle</div>
+              
+          </div>
+          <div class="col-5">
+           <div class="txt"><h4><i class="fa fa-calculator" aria-hidden="true"></i> Finance & incurance</h4></div>
+            <div class="txt2">Find your suitable Financial product</div>
+             
+          </div>
+      </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="footer-col-1">
+              <h3>Buy vehicle</h3>
+              <ul>
+                <li>Coupon</li>
+                <li>Blog</li>
+                <li>Return policy</li>
+                <li>Join Affliate</li>
+            </ul>
+              
+          </div>
+          <div class="footer-col-1">
+              
+              <h3>Purchase advice</h3>
+              <ul>
+                <li>Coupon</li>
+                <li>Blog</li>
+                <li>Return policy</li>
+                <li>Join Affliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-1">
+              <h3>Customer Services</h3>
+              <ul>
+                  <li>Coupon</li>
+                  <li>Blog</li>
+                  <li>Return policy</li>
+                  <li>Join Affliate</li>
+              </ul>
+          </div>
+          <div class="footer-col-1">
+              <h3>Follow Us</h3>
+              <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+              </ul>
+          </div>
+      </div>
+     </div>
+  
+</div>
+<div class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="footer-col-1">
+              <h3>Popular models</h3>
+              <ul>
+                <li>Coupon</li>
+                <li>Blog</li>
+                <li>Return policy</li>
+                <li>Join Affliate</li>
+            </ul>
+              
+          </div>
+          <div class="footer-col-1">
+              
+              <h3>Technologies</h3>
+              <ul>
+                <li>Coupon</li>
+                <li>Blog</li>
+                <li>Return policy</li>
+                <li>Join Affliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-1">
+              <h3>Annual return</h3>
+              <ul>
+                  <li>Coupon</li>
+                  <li>Blog</li>
+                  <li>Return policy</li>
+                  <li>Join Affliate</li>
+              </ul>
+          </div>
+          <div class="footer-col-1">
+              <h3>About Us</h3>
+              <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+              </ul>
+          </div>
+         
+      </div>
+     <hr>
+    <div class="catergory">
+      <div class="small-container">
+        
+          <div class="row">
+              <div class="col-6">
+               <a href=""class="icons">                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+               </a>
+                
+                
+              </div>
+              <div class="col-6">
+              <a href="" class="icons"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                
+              </div>
+              <div class="col-6">
+              <a href=""class="icons"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+               
+              </div>
+              <div class="col-6">
+                <a href=""class="icons">                <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                
+              </div>
+              <div class="para">Copy-right cliam</div>
+          </div>
+      </div>
+    </div>
+     </div>
+  
+</div>
+     
+     
+ 
+    
+        
+
+    
+    
+</body>
+</html>
